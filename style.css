@@ -9,7 +9,7 @@
 
 body
 {
-    background:#0a2a43 ;
+    background:#0a2a43;
     min-height: 1500px;
 }
 
@@ -71,10 +71,15 @@ section img{
 }
 
 ::-webkit-scrollbar{
-    width: 10px;   
+    width: 15px;   
 }
 
 ::-webkit-scrollbar{
     background: gray;  
+    border-radius: 30px; 
+}
+
+::-webkit-scrollbar-thumb{
+    background: #041624;  
     border-radius: 30px; 
 }
