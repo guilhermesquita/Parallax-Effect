@@ -69,3 +69,12 @@ section img{
 #road{
     z-index: 2;
 }
+
+::-webkit-scrollbar{
+    width: 10px;   
+}
+
+::-webkit-scrollbar{
+    background: gray;  
+    border-radius: 30px; 
+}
